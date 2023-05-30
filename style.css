@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: orange;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
+
+header h1{
+	padding-top: 2px;
+	padding-bottom: 5px;
+	color: white;
+	font-size: 50px;
+}
+
+content{
+	height:550px;
+	width: 100%;
+
+}
+
+.up table{
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+form{
+	display: flex;
+}
+
+
+td{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+.up{
+	width: 100%;
+	height: 60vh;
+}
+
+.ip{
+	width: 250px;
+}
+
+button{
+	width: 150px;
+	height: 40px;
+	margin-left: 50px;
+	margin-right: 40px;
+	color: orange;
+	background-color: transparent;
+	font-size: 20px;
+	border: 1px solid orange;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+button:hover{
+	color: white;
+	background-color: orange;
+}
+
+#btn{
+	width: 150px;
+	height: 40px;
+	margin-left: 50px;
+	margin-right: 40px;
+	color: orange;
+	background-color: transparent;
+	font-size: 20px;
+	border: 1px solid orange;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+#btn:hover{
+	color: white;
+	background-color: orange;
+}
+
+
+
+.down{
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	width:98%;
+	min-height: 100vh;
+
+}
+
+.down table{
+	width: 100%;
+}
+
+
+
+.down th{
+	background-color: orange;
+	color: white;
+	width: 150px;
+	height: 40px;
+}
+
+.down td{
+	font-size: 15px;
+	width: 150px;
+}
+
